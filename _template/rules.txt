@@ -1,0 +1,31 @@
+# rules.txt — authoritative program/testing rules for this target
+#
+# Paste or summarize the current program rules that materially affect testing.
+# HUNT_RULES.md reads this before any target action. Keep exact wording for
+# restrictions/qualifiers whenever possible.
+
+# Suggested sections:
+
+# PROGRAM / PLATFORM:
+# POLICY URL OR SOURCE:
+
+# PROHIBITED TECHNIQUES:
+# -
+
+# RATE / AUTOMATION LIMITS:
+# -
+
+# AUTH / ACCOUNT REQUIREMENTS:
+# -
+
+# NON-QUALIFYING / OUT-OF-SCOPE CLASSES:
+# -
+
+# DATA HANDLING / PII RULES:
+# -
+
+# REPORTING / DISCLOSURE NOTES:
+# -
+
+# OTHER TARGET-SPECIFIC RULES:
+# -

@@ -1,0 +1,17 @@
+# scope.txt — optional human-readable scope for this target
+#
+# If the program provides a CSV/export, keep that raw file in this target folder;
+# HUNT_RULES.md can parse it directly. Use this text file when a simple explicit
+# allow/deny list is more convenient.
+#
+# Convention used here:
+#   +asset.example.com   = explicitly in scope
+#   -asset.example.com   = explicitly out of scope
+#
+# Preserve qualifiers from the program policy (asset type, bounty eligibility,
+# severity caps, notes) in comments or rules.txt. Do not broaden wildcard meaning.
+
+# Example:
+# +example.com
+# +*.example.com
+# -blog.example.com

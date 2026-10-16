@@ -1,0 +1,10 @@
+# hunting artifacts — never commit loot
+recon_data/
+*.log
+nuclei/
+loot/
+targets/
+*.db
+.massdns*
+resolvers.txt
+validated_resolvers.txt
