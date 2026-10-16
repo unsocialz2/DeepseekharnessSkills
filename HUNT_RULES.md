@@ -1,6 +1,6 @@
 # HUNT_RULES — always-on operating contract
 
-Loaded by `opencode.json`. Keep this contract small; detailed methodology belongs in skills/references.
+The root `AGENTS.md` requires this file to be read before target actions. Keep this contract small; detailed methodology belongs in DSH skills and references.
 
 ## 0. TARGET CONTEXT
 
@@ -23,7 +23,7 @@ Work directly by default. Delegate only when it materially helps (parallel indep
 
 ## 2. SKILL / REFERENCE LOADING
 
-Top-level `SKILL.md` files are routers, not books. Load the smallest relevant domain skill and only the exact deep-dive/reference needed for the current question. Do not preload overlapping modes or giant libraries.
+Project skills are discovered from `<repo>/.dsh/skills/`. Top-level `SKILL.md` files are routers, not books. Load the smallest relevant domain skill and only the exact deep-dive/reference needed for the current question. Do not preload overlapping modes or giant libraries.
 
 Default ownership:
 
